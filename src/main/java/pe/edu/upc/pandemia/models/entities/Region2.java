@@ -18,7 +18,7 @@ import javax.persistence.OneToMany;
 
 public class Region2 {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "region_id")
 	private Integer id;
 

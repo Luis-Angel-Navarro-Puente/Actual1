@@ -21,7 +21,7 @@ public class RegionController {
 	
 	private Region2 region;
 	
-	List<Region2> listaRegiones;
+	private List<Region2> listaRegiones;
 
 	//constructores
 	@PostConstruct
@@ -69,6 +69,7 @@ public class RegionController {
 	}	
 	}
 	
+	
 	//getter setter
 	public IRegion2Service getRservice() {
 		return rservice;
@@ -84,6 +85,14 @@ public class RegionController {
 
 	public void setRegion(Region2 region) {
 		this.region = region;
+	}
+
+	public List<Region2> getListaRegiones() {
+		return listaRegiones;
+	}
+
+	public void setListaRegiones(List<Region2> listaRegiones) {
+		this.listaRegiones = listaRegiones;
 	}
 	
 	

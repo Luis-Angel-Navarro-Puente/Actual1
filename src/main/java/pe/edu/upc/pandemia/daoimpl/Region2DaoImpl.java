@@ -28,7 +28,6 @@ public class Region2DaoImpl implements IRegionDao {
 			System.out.println("Error al insertar region en el dao");
 
 		}
-
 	}
 
 	@SuppressWarnings("unchecked")
